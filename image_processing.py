@@ -122,7 +122,7 @@ def main():
 
         if option == "Original":
             st.balloons()
-            st.image(original_image, channels="BGR", caption="Original Image")
+            st.image(original_image, caption="Original Image")
 
         elif option == "RGB":
             st.balloons()
